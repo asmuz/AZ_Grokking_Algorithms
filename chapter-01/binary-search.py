@@ -1,4 +1,4 @@
-def binary_search(list, item):  #  БИНАРНЫЙ ПОИСК
+def binary_search(list, item):  #  БИНАРНЫЙ ПОИСК O(log n)
     low = 0                     #  В nеременнь1х Low и high хранятся границы
     high = len(list)-1          #  той части списка, в которой выпопняется поиск
 
